@@ -403,7 +403,7 @@ function Library.__init()
     local showTweenInfo = TweenInfo.new(0.6, Enum.EasingStyle.Circular, Enum.EasingDirection.InOut)
     TweenService:Create(mobile_button, showTweenInfo, {Size = UDim2.new(0, 100, 0, 38)}):Play()
     TweenService:Create(shadowMobile, showTweenInfo, {Size = UDim2.new(0, 120, 0, 58)}):Play()
-    TweenService:Create(Icon, showTweenInfo, {Size = UDim2.new(0, 35, 0, 35)}):Play()
+    TweenService:Create(Icon, showTweenInfo, {Size = UDim2.new(0, 15, 0, 15)}):Play()
     end
 
     UIS.InputBegan:Connect(function(input)
